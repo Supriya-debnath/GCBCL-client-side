@@ -1,0 +1,70 @@
+
+.banner-img {
+    background-image:
+    linear-gradient(rgba(15, 3, 3, 0.2),rgba(95, 128, 238, 0.3)),url(https://demo26.atiframe.com/wp-content/uploads/2020/03/crea-tive.svg);
+    opacity: 4;
+    background-color: black;
+    background-size: 100% 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-out;
+    
+}
+
+/* @keyframes animate{
+    0%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://demo26.atiframe.com/wp-content/uploads/revslider/slider-940px-11/Frame-11.png);
+    } 20%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://5.imimg.com/data5/JJ/ET/PD/ANDROID-87019860/product-jpeg-500x500.jpeg);
+    }
+    40%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i0.wp.com/www.drjcatering.com/wp-content/uploads/2019/09/129484657_s.jpg?fit=847%2C565&ssl=1);
+    } 60%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://cdn.eventplanner.net/imgs/rt4452_tip-hoe-kies-je-een-partycateraar@2x.jpg);
+    } 80%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://cdn.eventplanner.net/imgs/rt4452_tip-hoe-kies-je-een-partycateraar@2x.jpg);
+    }
+} */
+
+.banner-text h1 {
+    padding: 5px;
+    color: #f8f4f5;
+    margin-top: 10px;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner-text p {
+    color: #ffff;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.banner-text2{
+    margin-left: 50px;
+
+}
+.bannerh1{
+    color: plum;
+}
+
+.btn1{
+    background-color: rgb(31, 9, 20);
+    color: white;
+    font-weight: 600;
+    border: 2px solid rgb(216, 50, 50);
+    margin: 20px;
+    padding: 10px 25px;
+    border-radius: 20px;
+} 
+
