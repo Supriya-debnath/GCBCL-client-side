@@ -9,10 +9,8 @@ const WorkExperience = () => {
        <Container>
          <div>
             <>
-        <h4 className="text-center pt-5 display-6 cursive-text service-title animate__animated animate__zoomIn">
-            Work Experience
-            <br/>
-            (2017-2023)
+        <h4 className="text-center pt-5 display-6 cursive-text service-t animate__animated animate__zoomIn">
+        GcBcl has in-house experience and teams to deliver projects across various sector and service lines. Some of the key sectors we are working in
             </h4>
 
             <Row>

@@ -4,10 +4,12 @@ import { Col, Container, Row } from 'react-bootstrap';
 import img11 from '../../../Images/GCBCL TEAM.docx (10).png'
 import img22 from '../../../Images/GCBCL TEAM.docx (11).png'
 import img33 from '../../../Images/GCBCL TEAM.docx (12).png'
-// import img44 from '../../../Images/GCBCL TEAM.docx (9).png'
-// import img55 from '../../../Images/GCBCL TEAM.docx (9).png'
-// import img66 from '../../../Images/GCBCL TEAM.docx (9).png'
-// import img77 from '../../../Images/GCBCL TEAM.docx (9).png'
+import img44 from '../../../Images/GCBCL TEAM.docx (13).png'
+import img55 from '../../../Images/GCBCL TEAM.docx (14).png'
+import img66 from '../../../Images/GCBCL TEAM.docx (15).png'
+import img67 from '../../../Images/GCBCL TEAM.docx (16).png'
+import img68 from '../../../Images/GCBCL TEAM.docx (17).png'
+import img69 from '../../../Images/GCBCL TEAM.docx (18).png'
 import './CoreTeam.css';
 
 const CoreTeam = () => {
@@ -69,7 +71,7 @@ const CoreTeam = () => {
                 <Row >
                     <Col md={4} xs={12} className="my-2"> 
                         <div className='menus-card'>
-                        <img className='menus_img' src={img11} alt=""/>
+                        <img className='menus_img' src={img44} alt=""/>
                         <div className='img_overlay img_overlay--primary'>
                         <div className='menus_title'>
                         Kazi Ashiqur Rahman <br />
@@ -81,7 +83,7 @@ const CoreTeam = () => {
                     </Col>
                     <Col md={4} xs={12} className="my-2"> 
                         <div className='menus-card'>
-                        <img className='menus_img' src={img22} alt=""/>
+                        <img className='menus_img' src={img55} alt=""/>
                         <div className='img_overlay img_overlay--primary'>
                         <div className='menus_title'>
                         Arthur  Smith <br />
@@ -94,7 +96,7 @@ const CoreTeam = () => {
                     </Col>
                     <Col md={4} xs={12} className="my-2"> 
                         <div className='menus-card'>
-                        <img className='menus_img' src={img33} alt=""/>
+                        <img className='menus_img' src={img66} alt=""/>
                         <div className='img_overlay img_overlay--primary'>
                         <div className='menus_title'>
                         Nasrin Mahmooda <br />
@@ -115,7 +117,7 @@ const CoreTeam = () => {
                 <Row >
                     <Col md={4} xs={12} className="my-2"> 
                         <div className='menus-card'>
-                        <img className='menus_img' src={img11} alt=""/>
+                        <img className='menus_img' src={img67} alt=""/>
                         <div className='img_overlay img_overlay--primary'>
                         <div className='menus_title'>
                         Iftekhar Ahmed <br />
@@ -128,7 +130,7 @@ const CoreTeam = () => {
                     </Col>
                     <Col md={4} xs={12} className="my-2"> 
                         <div className='menus-card'>
-                        <img className='menus_img' src={img22} alt=""/>
+                        <img className='menus_img' src={img68} alt=""/>
                         <div className='img_overlay img_overlay--primary'>
                         <div className='menus_title'>
                         Md. Satil Munzoor -Al-Mahmud <br />
@@ -142,7 +144,7 @@ const CoreTeam = () => {
                     </Col>
                     <Col md={4} xs={12} className="my-2"> 
                         <div className='menus-card'>
-                        <img className='menus_img' src={img33} alt=""/>
+                        <img className='menus_img' src={img69} alt=""/>
                         <div className='img_overlay img_overlay--primary'>
                         <div className='menus_title'>
                         Zahid Ahmed Siddique <br />

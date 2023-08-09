@@ -21,6 +21,8 @@ import History from './Components/AllAboutUs/History/History';
 import BoardDirector from './Components/AllAboutUs/BoardDirector/BoardDirector';
 import CoreTeam from './Components/AllAboutUs/CoreTeam/CoreTeam';
 import CSR from './Components/AllAboutUs/CSR/CSR';
+import Clients from './Components/ClientPartner/Clients/Clients';
+import Partners from './Components/ClientPartner/Partners/Partners';
 
 
 function App() {
@@ -60,6 +62,12 @@ function App() {
           <Route path="/coreTeam" element={<CoreTeam />}>
           </Route>
           <Route path="/csr" element={<CSR />}>
+          </Route>
+
+
+          <Route path="/clients" element={<Clients />}>
+          </Route>
+          <Route path="/partners" element={<Partners />}>
           </Route>
 
 
