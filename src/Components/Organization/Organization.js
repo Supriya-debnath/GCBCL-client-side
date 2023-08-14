@@ -1,13 +1,17 @@
 import React from 'react';
 import './Organization.css';
-import { Button, Card, Col, Container, Row } from 'react-bootstrap';
+import { Button, Card, Col, Container, Nav, NavDropdown, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Organization = () => {
+   
+
+
     return (
         <div>
             <>
             <Container>
-        <h5 className='pt-5 pb-3'>THE FULL SERVICE INFRASTRUCTURE CONSULTING ORGANISATION</h5>
+        <h5 className='pt-5 pb-3 fs-3'><mark>About Us</mark></h5>
         
        
             <Row>
@@ -48,14 +52,103 @@ the chain, such as our diverse talented work team, partners, clients, and the so
 
 
                 <Col xs={12} md={2}>
-                <Card className="text-center">
-                    <Card.Header className='invo'>Invitaion for bussiness Association partnership</Card.Header>
-                    <Card.Body>
-                      
-                        <Button variant="warning">Click Here</Button>
-                    </Card.Body>
-                  
-                    </Card>
+
+             
+                 <div className='ps-5'>
+                 <p>
+                   <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                   </p>
+                   <p>
+                   <NavDropdown title="About Us" id="collasible-nav-dropdown">
+                        <NavDropdown.Item>
+                        <Nav.Link as={Link} to="/history">History</Nav.Link>
+                        </NavDropdown.Item>
+                        <NavDropdown.Divider />
+
+                        <NavDropdown.Item>
+                        <Nav.Link as={Link} to="/director"> Board of Director</Nav.Link>
+                        </NavDropdown.Item>
+                        <NavDropdown.Divider />
+
+                        <NavDropdown.Item>
+                        <Nav.Link as={Link} to="/coreTeam"> Core Team</Nav.Link>
+                        </NavDropdown.Item>
+                        <NavDropdown.Divider />
+
+                        <NavDropdown.Item>
+                        <Nav.Link as={Link} to="/csr"> CSR</Nav.Link>
+                        </NavDropdown.Item>
+                        </NavDropdown>
+                   </p>
+
+
+                   <p>
+                   <NavDropdown title="Sectors" id="collasible-nav-dropdown">
+                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">
+                        Another action
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action/3.4">
+                        Separated link
+                    </NavDropdown.Item>
+                    </NavDropdown>
+                   </p>
+
+
+                   <p>
+                   <NavDropdown title="Services" id="collasible-nav-dropdown">
+                    <NavDropdown.Item>
+                    <Nav.Link as={Link} to="/Infrastructure"> GCBCl Consultancy Services</Nav.Link> 
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item>
+                    <Nav.Link as={Link} to="/bankService">Bank Service</Nav.Link> 
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item>
+                    <Nav.Link as={Link} to="/training">Training/Workshop</Nav.Link> 
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item>
+                    <Nav.Link as={Link} to="/servey">Servey related services</Nav.Link> 
+                    </NavDropdown.Item>
+                    </NavDropdown>
+                   </p>
+
+
+                   <p>
+                   <NavDropdown title="Clients & Partners" id="collasible-nav-dropdown">
+                    <NavDropdown.Item>
+                    <Nav.Link as={Link} to="/clients">Clients</Nav.Link> 
+                    </NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item>
+                    <Nav.Link as={Link} to="/partners">Partners</Nav.Link> 
+                    </NavDropdown.Item>
+                    
+                    </NavDropdown>
+                   </p>
+
+                   <p>
+                   <Nav.Link as={Link} to="/contact">Contact us</Nav.Link>
+                   </p>
+         
+                 </div>
+              
+                
+                    
+
+                     {/* <Card className="text-center">
+                        <Card.Header className='invo'>Invitaion for bussiness Association partnership</Card.Header>
+                        <Card.Body>
+                        
+                            <Button variant="warning">Click Here</Button>
+                        </Card.Body>
+                    
+                    </Card> */}
+               
                 </Col>
             </Row>
         </Container>
@@ -67,3 +160,5 @@ the chain, such as our diverse talented work team, partners, clients, and the so
 };
 
 export default Organization;
+
+

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
+import { Col, Container, Nav, NavDropdown, Navbar, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -13,9 +13,10 @@ const Header = () => {
           <spam className="text-white fs-6"> <i className="fas fa-phone me-2"></i>
                                 +880 199 777 822</spam>
           <spam className="text-white fs-6 ps-4"> <i className="fas fa-envelope me-2"></i>
-                                info@example.com</spam>
+                                info.gcbcl@gmail.com</spam>
         </Navbar.Brand>
         <Navbar.Toggle />
+        
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
           <div className="col-md-6 col-lg-12 ">

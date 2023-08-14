@@ -6,8 +6,58 @@ import { Col, Container, Row } from 'react-bootstrap';
 const Banner = () => {
     return (
         <>
+
+<div className="banner-img">
+        <div className="banner-text">
+        <p className='animate__animated animate__fadeInDown'>
+                
+            </p>
+            {/* <div className='animate__animated animate__zoomIn'>
+                <h1>Observing The Beauty </h1>
+                <h1>Of Rural Bangal</h1>
+            </div> */}
+
+
+
+            <div className="wrapper">
+                <div className="static-text">Building Future Bangladesh</div>
+                <ul className="dynamic-text">
+                    <li> <span>GCBCL Consultancy</span> </li>
+                    <li> <span>GCBCL Consultancy</span> </li>
+                    <li> <span>GCBCL Consultancy</span> </li>
+                    <li> <span>GCBCL Consultancy</span> </li>
+                </ul>
+            </div>
+
+            {/* <button className="btn animate__animated animate__fadeInUp">Learn More</button> */}
+
+            {/* <div className='google-btn'>
+                <button className="btn1 animate__animated animate__fadeInUp">Learn More</button>
+            </div> */}
+
+        </div>
+    </div>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
            
-        <div >
+        {/* <div >
             <div className="banner-img">
                 <Row>
                 <Col xs={12} md={8} className='pt-5'>
@@ -31,7 +81,7 @@ const Banner = () => {
         </Col>
     </Row>
     </div>
-    </div>
+    </div> */}
                
 
 

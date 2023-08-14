@@ -1,11 +1,8 @@
-
 .banner-img {
     background-image:
-    linear-gradient(rgba(15, 3, 3, 0.2),rgba(95, 128, 238, 0.3)),url(https://demo26.atiframe.com/wp-content/uploads/2020/03/crea-tive.svg);
-    opacity: 4;
-    background-color: black;
+    linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)),url(https://i.ibb.co/59q0NH6/IMG-1316.jpg);
     background-size: 100% 100%;
-    /* height: 550px; */
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,29 +15,34 @@
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-timing-function: ease-out;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+    
     
 }
 
-/* @keyframes animate{
+@keyframes animate{
     0%{
-        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://demo26.atiframe.com/wp-content/uploads/revslider/slider-940px-11/Frame-11.png);
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/v1WHYnY/IMG-2397.jpg);
     } 20%{
-        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://5.imimg.com/data5/JJ/ET/PD/ANDROID-87019860/product-jpeg-500x500.jpeg);
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/K9FSrWV/IMG-2288.jpg);
     }
     40%{
-        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i0.wp.com/www.drjcatering.com/wp-content/uploads/2019/09/129484657_s.jpg?fit=847%2C565&ssl=1);
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/MM9hXR1/IMG-2276.jpg);
     } 60%{
-        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://cdn.eventplanner.net/imgs/rt4452_tip-hoe-kies-je-een-partycateraar@2x.jpg);
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/t4fHDYj/IMG-1223.jpg);
     } 80%{
-        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://cdn.eventplanner.net/imgs/rt4452_tip-hoe-kies-je-een-partycateraar@2x.jpg);
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/dt1s3jQ/IMG-2576.jpg);
+    } 100%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/BnSGm1d/IMG-1259.jpg);
     }
-} */
+}
 
 .banner-text h1 {
     padding: 5px;
     color: #f8f4f5;
     margin-top: 10px;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -50,14 +52,6 @@
     margin-top: 10px;
     font-size: 20px;
 }
-.banner-text2{
-    margin-left: 50px;
-
-}
-.bannerh1{
-    color: plum;
-}
-
 .btn1{
     background-color: rgb(31, 9, 20);
     color: white;
@@ -67,4 +61,81 @@
     padding: 10px 25px;
     border-radius: 20px;
 } 
+
+/* .btn{
+    background-color: rgb(65, 131, 65);
+    color: aqua;
+    border: 1px solid gray;
+    margin: 20px;
+    padding: 5px 25px;
+    border-radius: 20px;
+}  */
+
+
+
+/* ************************ */
+
+
+ .wrapper .static-text{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    
+ }
+ .wrapper .dynamic-text{
+    margin-left: 15px;
+    line-height: 80px;
+    height: 90px;
+    /* background: red; */
+    overflow: hidden;
+ }
+
+
+
+ 
+
+ .dynamic-text li{
+    list-style: none;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.735);
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+    -webkit-animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide {
+    100%{
+        top: -300px;
+    }
+ }
+ .dynamic-text li span{
+    position: relative;
+ }
+
+ .dynamic-text li span::afer{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background: #343F4F; */
+    border-left: 2px solid #FC6D6D;
+    animation: typing 1.5s steps(10) infinite;
+    -webkit-animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+
+
+
+
+
 
