@@ -19,10 +19,10 @@ const OurServices = () => {
     return (
         <div className="mb-4">
         <div className="service-banner text-center">
-            <h4 className="display-6 cursive-text service-title animate__animated animate__zoomIn">
-            Our Services
+            <h4 className=" pb-4 display-6 cursive-text service-title animate__animated animate__zoomIn">
+            Our Projects
             </h4>
-            <div>
+            {/* <div>
                 <div>
                     <small className="text-muted small-text">
                     Bangladesh Infrastructure Finance Fund Limited (BIFFL) <br/>
@@ -36,7 +36,8 @@ const OurServices = () => {
                     part of booking procedures.
                     </small>
                 </div>
-            </div>
+            </div> */}
+
         </div>
 
         <Container>

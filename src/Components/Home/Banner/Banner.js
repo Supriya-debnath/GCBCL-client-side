@@ -20,12 +20,13 @@ const Banner = () => {
 
 
             <div className="wrapper">
+            {/* <img style={{ height: "150px", padding:"20px" }} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL_nbZv7P8_J1MhT5AZwvZFwHwFEgzr7Jk4yF2Nt1STQ&s" alt="" /> */}
                 <div className="static-text">Building Future Bangladesh</div>
                 <ul className="dynamic-text">
-                    <li> <span>GCBCL Consultancy</span> </li>
-                    <li> <span>GCBCL Consultancy</span> </li>
-                    <li> <span>GCBCL Consultancy</span> </li>
-                    <li> <span>GCBCL Consultancy</span> </li>
+                    <li> <span>GCBCL Consultancy Services</span> </li>
+                    <li> <span>Bank Services</span> </li>
+                    <li> <span>Training/Workshop Services</span> </li>
+                    <li> <span>Servey Related Services</span> </li>
                 </ul>
             </div>
 

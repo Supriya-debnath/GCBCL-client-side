@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import img1 from '../../../Images/IMG_2864.JPG'
+import img1 from '../../../Images/history.JPG'
 import './History.css';
 
 const History = () => {
