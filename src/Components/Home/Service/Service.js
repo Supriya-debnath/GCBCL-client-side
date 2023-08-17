@@ -1,12 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Service.css';
+import { Row } from 'react-bootstrap';
 
 const Service = ({service}) => {
     const {_id, name, img, description} =service;
 
+   
+
     return (
+  
+       
         <div className="col product">
+           
             
                 <div className="card h-100">
                     <img src={img} className="card-img-top" alt={name} />
@@ -28,6 +34,7 @@ const Service = ({service}) => {
                 </div>
                
         </div>
+    
     );
 };
 

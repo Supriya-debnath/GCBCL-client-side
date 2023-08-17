@@ -1,10 +1,20 @@
 import React, { useEffect, useState } from 'react';
+import Slider from "react-slick";
 import './OurServices.css';
-import { Container } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import Service from '../Service/Service';
 
 const OurServices = () => {
     const [ services, setServices]= useState([]);
+
+    const settings = {
+        className: "center",
+        centerMode: true,
+        infinite: true,
+        centerPadding: "60px",
+        slidesToShow: 3,
+        speed: 500
+      };
 
 
     useEffect(() => {
@@ -41,10 +51,22 @@ const OurServices = () => {
         </div>
 
         <Container>
-            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-
+    
+     
+       
+            <div className="row-cols-1 row-cols-md-1 row-cols-lg-1 g-4">
+            <Slider {...settings}>
+          
                 {services.map(service => <Service key={service._id} service={service}/>)}
+                </Slider>
+             
             </div>
+            
+          
+      
+      
+      
+          
         </Container>
     </div>
     );
