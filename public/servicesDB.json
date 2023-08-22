@@ -3,7 +3,7 @@
     {
         "img":"https://i.ibb.co/6DZs7GH/IMG-1029.jpg",
         "name": "Web Development",
-        "description":"Project Appraisal and Due Diligence of Bangladesh Infrastructure Finance Fund Limited (BIFFL) Funded Projects."
+        "description":" Bangladesh Infrastructure Finance Fund Limited (BIFFL) Funded Projects."
 
     },
 
@@ -28,19 +28,31 @@
     {
         "img":"https://i.ibb.co/C1XxqM7/IMG-2397.jpg",
         "name": "Writting",
-        "description":"Launching of Investment Promotion and Financing Facility II (IPFF II)"
+        "description":"Dhaka Environmentally Sustainable Water Supply"
 
     },
     {
         "img":"https://i.ibb.co/C1XxqM7/IMG-2397.jpg",
         "name": "Writting",
-        "description":"Launching of Investment Promotion and Financing Facility II (IPFF II)"
+        "description":"Environmental and Social Impact Assessment on Infrastructure Project"
 
     },
     {
         "img":"https://i.ibb.co/C1XxqM7/IMG-2397.jpg",
         "name": "Writting",
-        "description":"Launching of Investment Promotion and Financing Facility II (IPFF II)"
+        "description":"Workshop on “Innovative Financing Instrument for Infrastructure Financing”"
+
+    },
+    {
+        "img":"https://i.ibb.co/C1XxqM7/IMG-2397.jpg",
+        "name": "Writting",
+        "description":"Workshop on Effective Time Management and  Goal Setting"
+
+    },
+    {
+        "img":"https://i.ibb.co/C1XxqM7/IMG-2397.jpg",
+        "name": "Writting",
+        "description":"Root Level Training on Safe Agriculture"
 
     }
 ]

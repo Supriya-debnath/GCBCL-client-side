@@ -15,7 +15,7 @@ const Organization = () => {
         
        
             <Row>
-                <Col xs={12} md={10} className='pb-5'>
+                <Col xs={12} md={9} className='pb-5'>
                 Global Capacity Building Consultancy Limited is a consultancy firm providing strategic
 technical, legal and financial consultancy services for the development of infrastructure
 through PPP, Public Policy and Governance, Planning Design, Engineering, Financial
@@ -51,103 +51,30 @@ the chain, such as our diverse talented work team, partners, clients, and the so
                 </Col>
 
 
-                <Col xs={12} md={2}>
-
-             
-                 <div className='ps-5'>
-                 <p>
-                   <Nav.Link as={Link} to="/home">Home</Nav.Link>
-                   </p>
-                   <p>
-                   <NavDropdown title="About Us" id="collasible-nav-dropdown">
-                        <NavDropdown.Item>
-                        <Nav.Link as={Link} to="/history">History</Nav.Link>
-                        </NavDropdown.Item>
-                        <NavDropdown.Divider />
-
-                        <NavDropdown.Item>
-                        <Nav.Link as={Link} to="/director"> Board of Director</Nav.Link>
-                        </NavDropdown.Item>
-                        <NavDropdown.Divider />
-
-                        <NavDropdown.Item>
-                        <Nav.Link as={Link} to="/coreTeam"> Core Team</Nav.Link>
-                        </NavDropdown.Item>
-                        <NavDropdown.Divider />
-
-                        <NavDropdown.Item>
-                        <Nav.Link as={Link} to="/csr"> CSR</Nav.Link>
-                        </NavDropdown.Item>
-                        </NavDropdown>
-                   </p>
-
-
-                   <p>
-                   <NavDropdown title="Sectors" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">
-                        Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">
-                        Separated link
-                    </NavDropdown.Item>
-                    </NavDropdown>
-                   </p>
-
-
-                   <p>
-                   <NavDropdown title="Services" id="collasible-nav-dropdown">
-                    <NavDropdown.Item>
-                    <Nav.Link as={Link} to="/Infrastructure"> GCBCl Consultancy Services</Nav.Link> 
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item>
-                    <Nav.Link as={Link} to="/bankService">Bank Service</Nav.Link> 
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item>
-                    <Nav.Link as={Link} to="/training">Training/Workshop</Nav.Link> 
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item>
-                    <Nav.Link as={Link} to="/servey">Servey related services</Nav.Link> 
-                    </NavDropdown.Item>
-                    </NavDropdown>
-                   </p>
-
-
-                   <p>
-                   <NavDropdown title="Clients & Partners" id="collasible-nav-dropdown">
-                    <NavDropdown.Item>
-                    <Nav.Link as={Link} to="/clients">Clients</Nav.Link> 
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item>
-                    <Nav.Link as={Link} to="/partners">Partners</Nav.Link> 
-                    </NavDropdown.Item>
-                    
-                    </NavDropdown>
-                   </p>
-
-                   <p>
-                   <Nav.Link as={Link} to="/contact">Contact us</Nav.Link>
-                   </p>
-         
-                 </div>
-              
-                
-                    
-
-                     {/* <Card className="text-center">
+                <Col xs={12} md={3}>
+                    <div className='pt-5'>
+                    <Card className="text-center">
                         <Card.Header className='invo'>Invitaion for bussiness Association partnership</Card.Header>
                         <Card.Body>
                         
                             <Button variant="warning">Click Here</Button>
                         </Card.Body>
                     
-                    </Card> */}
+                    </Card>
+                   
+                    </div>
+
+
+                    <div className='pt-5'>
+                    <div class="swatch">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                    </div>
+                    </div>
                
                 </Col>
             </Row>

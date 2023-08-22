@@ -1,4 +1,65 @@
-.banner-img {
+/* .banner-slider{
+    width: 85vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    overflow: hidden;
+    border: 10px solid #fff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px gray;
+
+}
+.wrappers{
+    width: 100%;
+    display: flex;
+} */
+
+.bannerText h3{
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+
+
+img{
+    width: 100%;
+    /* display: flex;
+    animation: slide 16s infinite; */
+
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+
+
+
+
+/* .banner-img {
     background-image:
     linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)),url(https://i.ibb.co/59q0NH6/IMG-1316.jpg);
     background-size: 100% 100%;
@@ -23,18 +84,18 @@
 
 @keyframes animate{
     0%{
-        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/v1WHYnY/IMG-2397.jpg);
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)),  url(https://www.bmi.bund.de/SharedDocs/bilder/DE/verteilerseite/bau/stadtentwicklung.jpg?__blob=poster&v=4);
     } 20%{
-        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/K9FSrWV/IMG-2288.jpg);
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://www.ask-ehs.com/blog/wp-content/uploads/2022/09/Blog-post-img-3-1.jpg);
     }
     40%{
-        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/MM9hXR1/IMG-2276.jpg);
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://assets.kpmg.com/is/image/kpmg/indian-power-sector:cq5dam.web.1200.630);
     } 60%{
-        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/t4fHDYj/IMG-1223.jpg);
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://www.daily-sun.com/assets/news_images/2022/09/27/1601134828.jpg);
     } 80%{
-        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/dt1s3jQ/IMG-2576.jpg);
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://magarticles.magzter.com/articles/821/259752/5a4ccd70b74fa/Environmental-Pollution-in-Bangladesh-Its-Effects-and-Control.jpg);
     } 100%{
-        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/BnSGm1d/IMG-1259.jpg);
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://live.staticflickr.com/65535/50520663201_3c42105f64_z.jpg);
     }
 }
 
@@ -51,7 +112,8 @@
     padding: 5px;
     margin-top: 10px;
     font-size: 20px;
-}
+}  */
+
 .btn1{
     background-color: rgb(31, 9, 20);
     color: white;
@@ -61,6 +123,9 @@
     padding: 10px 25px;
     border-radius: 20px;
 } 
+
+
+
 
 /* .btn{
     background-color: rgb(65, 131, 65);
@@ -76,8 +141,8 @@
 /* ************************ */
 
 
- .wrapper .static-text{
-    font-size: 50px;
+ /* .wrapper .static-text{
+    font-size: 30px;
     color: #fff;
     font-weight: 700;
     
@@ -86,19 +151,19 @@
     margin-left: 15px;
     line-height: 80px;
     height: 90px;
-    /* background: red; */
+    background: red;
     overflow: hidden;
- }
+ } */
 
 
 
- 
+/*  
 
  .dynamic-text li{
     list-style: none;
     font-size: 50px;
     font-weight: 500;
-    color: rgba(0, 0, 0, 0.735);
+    color: rgba(243, 42, 42, 0.735);
     position: relative;
     top: 0;
     animation: slide 6s steps(4) infinite;
@@ -112,15 +177,17 @@
  }
  .dynamic-text li span{
     position: relative;
- }
+ } */
 
+
+/* 
  .dynamic-text li span::afer{
     content: "";
     position: absolute;
     left: 0;
     height: 100%;
     width: 100%;
-    /* background: #343F4F; */
+    background: #343F4F;
     border-left: 2px solid #FC6D6D;
     animation: typing 1.5s steps(10) infinite;
     -webkit-animation: typing 1.5s steps(10) infinite;
@@ -133,7 +200,7 @@
     }
 }
 
-
+ */
 
 
 

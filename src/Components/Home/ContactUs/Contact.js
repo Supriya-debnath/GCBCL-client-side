@@ -9,15 +9,42 @@ const Contact = () => {
         <Container>
           <Row>
           <Col xs={12} md={4}>
-            <div className='discover'>
-              <h2>Building Future Bangladesh</h2>
+
+
+          <div class="letter-image">
+          <div class="animated-mail">
+            <div class="back-fold"></div>
+            <div class="letter">
+              <div class="letter-border"></div>
+              <div class="letter-title"></div>
+              <div class="letter-context"></div>
+              <div class="letter-stamp">
+                <div class="letter-stamp-inner"></div>
+              </div>
+            </div>
+            <div class="top-fold"></div>
+            <div class="body"></div>
+            <div class="left-fold"></div>
+          </div>
+          <div class="shadow"></div>
+        </div>
+        <br/>
+            <div className='discover pt-5'>
+             
+         
               <br />
               <br />
-              <h4>E-mail</h4>
+              <h4 className='pt-5'>E-mail</h4>
               <hr />
               <h6>For Client Purpose: reezaa.gcbcl@gmail.com <br />
               For Official Purpose: info.gcbcl@gmail.com</h6>
+              <br/>
+            <h2>Building Future Bangladesh</h2>
             </div>
+            
+
+
+
           </Col>
 
           <Col xs={12} md={8}>

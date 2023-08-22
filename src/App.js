@@ -23,6 +23,12 @@ import CoreTeam from './Components/AllAboutUs/CoreTeam/CoreTeam';
 import CSR from './Components/AllAboutUs/CSR/CSR';
 import Clients from './Components/ClientPartner/Clients/Clients';
 import Partners from './Components/ClientPartner/Partners/Partners';
+import Urban from './Components/AllSectors/Urban/Urban';
+import Transport from './Components/AllSectors/Transport/Transport';
+import Energy from './Components/AllSectors/Energy/Energy';
+import Tourism from './Components/AllSectors/Tourism/Tourism';
+import Enviroment from './Components/AllSectors/Enviroment/Enviroment';
+import FoodSafety from './Components/AllSectors/FoodSafety/FoodSafety';
 
 
 function App() {
@@ -63,6 +69,23 @@ function App() {
           </Route>
           <Route path="/csr" element={<CSR />}>
           </Route>
+
+
+
+          <Route path="/urban" element={<Urban />}>
+          </Route>
+          <Route path="/transport" element={<Transport />}>
+          </Route>
+          <Route path="/energy" element={<Energy />}>
+          </Route>
+          <Route path="/tourism" element={<Tourism />}>
+          </Route>
+          <Route path="/enviroment" element={<Enviroment />}>
+          </Route>
+          <Route path="/foodSafety" element={<FoodSafety />}>
+          </Route>
+
+
 
 
           <Route path="/clients" element={<Clients />}>
