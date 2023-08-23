@@ -103,6 +103,11 @@ const Header = () => {
               <NavDropdown.Divider />
 
               <NavDropdown.Item>
+              <Nav.Link as={Link} to="/information">INFORMATION TECHNOLOGY  </Nav.Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+
+              <NavDropdown.Item>
               <Nav.Link as={Link} to="/enviroment"> ENVIRONMENT </Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />

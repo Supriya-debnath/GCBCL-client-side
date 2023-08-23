@@ -29,6 +29,7 @@ import Energy from './Components/AllSectors/Energy/Energy';
 import Tourism from './Components/AllSectors/Tourism/Tourism';
 import Enviroment from './Components/AllSectors/Enviroment/Enviroment';
 import FoodSafety from './Components/AllSectors/FoodSafety/FoodSafety';
+import Information from './Components/AllSectors/Information/Information';
 
 
 function App() {
@@ -79,6 +80,8 @@ function App() {
           <Route path="/energy" element={<Energy />}>
           </Route>
           <Route path="/tourism" element={<Tourism />}>
+          </Route>
+          <Route path="/information" element={<Information />}>
           </Route>
           <Route path="/enviroment" element={<Enviroment />}>
           </Route>

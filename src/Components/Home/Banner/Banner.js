@@ -180,7 +180,7 @@ const Banner = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img style={{ height: "450px", padding:"20px" }}  src={"https://assets.kpmg.com/is/image/kpmg/indian-power-sector:cq5dam.web.1200.630"} alt="" />
+      <img style={{ height: "450px", padding:"20px" }}  src={"https://www.brookings.edu/wp-content/uploads/2018/09/Energy-sector_shutterstock_288559940.jpg"} alt="" />
         <Carousel.Caption>
          <div className='bannerText animate__animated animate__zoomIn'>
          <h4>Building Future Bangladesh</h4>
