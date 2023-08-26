@@ -30,6 +30,8 @@ import Tourism from './Components/AllSectors/Tourism/Tourism';
 import Enviroment from './Components/AllSectors/Enviroment/Enviroment';
 import FoodSafety from './Components/AllSectors/FoodSafety/FoodSafety';
 import Information from './Components/AllSectors/Information/Information';
+import Study from './Components/Archive/Study/Study';
+import WorkExperiences from './Components/Archive/WorkExperiences/WorkExperiences';
 
 
 function App() {
@@ -94,6 +96,12 @@ function App() {
           <Route path="/clients" element={<Clients />}>
           </Route>
           <Route path="/partners" element={<Partners />}>
+          </Route>
+
+
+          <Route path="/study" element={<Study />}>
+          </Route>
+          <Route path="/work" element={<WorkExperiences />}>
           </Route>
 
 

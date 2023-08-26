@@ -154,7 +154,7 @@ const Header = () => {
 
             <NavDropdown title="Archive" id="collasible-nav-dropdown">
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/">Study</Nav.Link>
+              <Nav.Link as={Link} to="/study">Study</Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
 
@@ -179,7 +179,7 @@ const Header = () => {
               <NavDropdown.Divider />
 
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/">Work Experience</Nav.Link>
+              <Nav.Link as={Link} to="/work">Work Experience</Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>

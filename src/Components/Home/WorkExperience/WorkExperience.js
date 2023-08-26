@@ -10,7 +10,7 @@ const WorkExperience = () => {
          <div>
             <>
         <h4 className="text-center pt-5 display-6 cursive-text service-t animate__animated animate__zoomIn">
-        GcBcl has in-house experience and teams to deliver projects across various sector and service lines. Some of the key sectors we are working in
+            <mark>Work Experience</mark>
             </h4>
 
             <Row>

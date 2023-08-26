@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import img22 from '../../../Images/GCBCL TEAM.docx (11).png'
 import img44 from '../../../Images/GCBCL TEAM.docx (13).png'
 import img66 from '../../../Images/GCBCL TEAM.docx (15).png'
+import img00 from '../../../Images/Abul Quasem pic.docx.jpg'
 
 const Banner = () => {
     return (
@@ -65,6 +66,11 @@ const Banner = () => {
 
               <NavDropdown.Item>
               <Nav.Link as={Link} to="/tourism">TOURISM  </Nav.Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+
+              <NavDropdown.Item>
+              <Nav.Link as={Link} to="/information">INFORMATION TECHNOLOGY  </Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
 
@@ -284,7 +290,8 @@ const Banner = () => {
                 <ul>
                     <li><h6>Advisors:</h6>
                     <ul>
-                        <li>Abul Kashem</li>
+                    <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img00} alt=""/>
+                        <li>Md. Abul Quasem</li>
                     </ul>
                     </li>
                 </ul>
