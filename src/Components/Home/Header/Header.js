@@ -113,7 +113,12 @@ const Header = () => {
               <NavDropdown.Divider />
 
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/foodSafety"> FOOD SAFETY </Nav.Link>
+              <Nav.Link as={Link} to="/foodSafety"> FOOD SAFETY & SECURITY </Nav.Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+
+              <NavDropdown.Item>
+              <Nav.Link as={Link} to="/capacity"> CAPACITY BUILDING </Nav.Link>
               </NavDropdown.Item>
              
 
@@ -164,7 +169,7 @@ const Header = () => {
               <NavDropdown.Divider />
 
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/">Employee</Nav.Link>
+              <Nav.Link as={Link} to="/employee">Employee</Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
 

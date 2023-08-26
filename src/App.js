@@ -32,6 +32,8 @@ import FoodSafety from './Components/AllSectors/FoodSafety/FoodSafety';
 import Information from './Components/AllSectors/Information/Information';
 import Study from './Components/Archive/Study/Study';
 import WorkExperiences from './Components/Archive/WorkExperiences/WorkExperiences';
+import Capacity from './Components/AllSectors/Capacity/Capacity';
+import Employee from './Components/Archive/Employee/Employee';
 
 
 function App() {
@@ -89,6 +91,8 @@ function App() {
           </Route>
           <Route path="/foodSafety" element={<FoodSafety />}>
           </Route>
+          <Route path="/capacity" element={<Capacity />}>
+          </Route>
 
 
 
@@ -100,6 +104,8 @@ function App() {
 
 
           <Route path="/study" element={<Study />}>
+          </Route>
+          <Route path="/employee" element={<Employee />}>
           </Route>
           <Route path="/work" element={<WorkExperiences />}>
           </Route>

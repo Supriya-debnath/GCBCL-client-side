@@ -25,18 +25,6 @@ const CoreTeam = () => {
                 <Row >
                 <Col md={4} xs={12} className="my-2"> 
                         <div className='menus-card'>
-                        <img className='menus_img' src={img44} alt=""/>
-                        <div className='img_overlay img_overlay--primary'>
-                        <div className='menus_title'>
-                        Kazi Ashiqur Rahman <br />
-                        Director
-
-                        </div>
-                        </div>
-                        </div>
-                    </Col>
-                    <Col md={4} xs={12} className="my-2"> 
-                        <div className='menus-card'>
                         <img className='menus_img' src={img22} alt=""/>
                         <div className='img_overlay img_overlay--primary'>
                         <div className='menus_title'>
@@ -47,6 +35,20 @@ const CoreTeam = () => {
                         </div>
                         </div>
                     </Col>
+                    
+                <Col md={4} xs={12} className="my-2"> 
+                        <div className='menus-card'>
+                        <img className='menus_img' src={img44} alt=""/>
+                        <div className='img_overlay img_overlay--primary'>
+                        <div className='menus_title'>
+                        Kazi Ashiqur Rahman <br />
+                        Director
+
+                        </div>
+                        </div>
+                        </div>
+                    </Col>
+                    
                     <Col md={4} xs={12} className="my-2"> 
                         <div className='menus-card'>
                         <img className='menus_img' src={img66} alt=""/>

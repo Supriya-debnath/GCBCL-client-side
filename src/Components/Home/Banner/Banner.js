@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import'./Banner.css';
 import 'animate.css';
 import { Button, Card, Carousel, Col, Container, Nav, NavDropdown, Row } from 'react-bootstrap';
@@ -10,6 +10,13 @@ import img66 from '../../../Images/GCBCL TEAM.docx (15).png'
 import img00 from '../../../Images/Abul Quasem pic.docx.jpg'
 
 const Banner = () => {
+
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+
+  };
     return (
         <>
 
@@ -165,29 +172,31 @@ const Banner = () => {
 
         <Col xs={12} md={8}>
             <Container>
-            <Carousel fade>
+
+            <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://www.worldbank.org/content/dam/photos/780x439/2018/jan-1/Kazakhstan-homes-near-an-urban-area-Shynar-Jetpissova-World-Bank-780x439....png"} alt="" />
-        <Carousel.Caption>
-          <div className='bannerText animate__animated animate__zoomIn'>
+      <Carousel.Caption>
+          <div className='bannerText animate__animated animate__zoomIn banner1 '>
             <h4>Building Future Bangladesh</h4>
           <h3>Urban Sector</h3>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://www.ask-ehs.com/blog/wp-content/uploads/2022/09/Blog-post-img-3-1.jpg"} alt="" />
-        <Carousel.Caption>
+      <Carousel.Caption>
         <div className='bannerText animate__animated animate__zoomIn'>
         <h4>Building Future Bangladesh</h4>
         <h3>Transport</h3>
-        </div>
-          
+        </div>   
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://www.brookings.edu/wp-content/uploads/2018/09/Energy-sector_shutterstock_288559940.jpg"} alt="" />
-        <Carousel.Caption>
+      <Carousel.Caption>
          <div className='bannerText animate__animated animate__zoomIn'>
          <h4>Building Future Bangladesh</h4>
          <h3>Energy Sector Capabilities</h3>
@@ -195,26 +204,30 @@ const Banner = () => {
           
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-      <img style={{ height: "450px", padding:"20px" }}  src={"https://www.daily-sun.com/assets/news_images/2022/09/27/1601134828.jpg"} alt="" />
+
+
+      <Carousel.Item> 
+      <img style={{ height: "450px", padding:"20px" }}  src={"https://wbtourismdotblog.files.wordpress.com/2020/09/tourism-properties-cover.jpg?w=870"} alt="" />
         <Carousel.Caption>
-         <div className='bannerText animate__animated animate__zoomIn'>
+         <div className='bannerText animate__animated animate__zoomIn bannerT'>
          <h4>Building Future Bangladesh</h4>
          <h3>Tourism</h3>
-         </div>
-          
+         </div>  
         </Carousel.Caption>
       </Carousel.Item>
+
+
       <Carousel.Item>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://magarticles.magzter.com/articles/821/259752/5a4ccd70b74fa/Environmental-Pollution-in-Bangladesh-Its-Effects-and-Control.jpg"} alt="" />
         <Carousel.Caption>
-         <div className='bannerText animate__animated animate__zoomIn'>
+         <div className='bannerText animate__animated animate__zoomIn bannerE'>
          <h4>Building Future Bangladesh</h4>
          <h3>Enviroment</h3>
-         </div>
-          
+         </div>  
         </Carousel.Caption>
       </Carousel.Item>
+
+
       <Carousel.Item>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://live.staticflickr.com/65535/50520663201_3c42105f64_z.jpg"} alt="" />
         <Carousel.Caption>
@@ -222,55 +235,24 @@ const Banner = () => {
          <h4>Building Future Bangladesh</h4>
          <h3>Food Safety</h3>
          </div>
-         
         </Carousel.Caption>
       </Carousel.Item>
+
+
+      <Carousel.Item>
+      <img style={{ height: "450px", padding:"20px" }}  src={"https://www.wipo.int/export/sites/www/cooperation/images/getty_494280280_500.jpg"} alt="" />
+        <Carousel.Caption>
+         <div className='bannerText animate__animated animate__zoomIn bannerC'>
+         <h4>Building Future Bangladesh</h4>
+         <h3>Capacity Building</h3>
+         </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+
     </Carousel>
 
 
-
-
-                {/* <div className='banner-slider'>
-                <div className='wrappers'>
-               
-                <img  src={"https://cdn.britannica.com/47/29547-050-A326596D/village-locality-Bankura-India-West-Bengal.jpg"} alt="" />
-             
-            
-
-                <img src={"https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80"} alt="" />
-
-                <img src={"https://cdn.britannica.com/47/29547-050-A326596D/village-locality-Bankura-India-West-Bengal.jpg"} alt="" />
-
-                <img src={"https://cdn.britannica.com/47/29547-050-A326596D/village-locality-Bankura-India-West-Bengal.jpg"} alt="" />
-
-                </div>
-
-                </div> */}
-
-
-
-
-            {/* <div className="banner-img">
-                    <div className="banner-text">
-                    <p className=''>     
-            </p>
-           
-           
-                <div className="wrapper">
-                <div className="static-text">Building Future Bangladesh</div>
-                <ul className="dynamic-text">
-                    <li> <span>Urban Sector</span> </li>
-                    <li> <span>Transport</span> </li>
-                    <li> <span>Energy Sector Capabilities</span> </li>
-                    <li> <span>Tourism</span> </li>
-                    <li> <span>Enviroment</span> </li>
-                    <li> <span>Food Safety</span> </li>
-                </ul>
-            </div>
-
-
-        </div>
-    </div>    */}
 
 </Container>
             </Col>
