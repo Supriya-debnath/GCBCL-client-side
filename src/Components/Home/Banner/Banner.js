@@ -175,78 +175,85 @@ const Banner = () => {
 
             <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
+      <div className='gcbclBanner'>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://www.worldbank.org/content/dam/photos/780x439/2018/jan-1/Kazakhstan-homes-near-an-urban-area-Shynar-Jetpissova-World-Bank-780x439....png"} alt="" />
       <Carousel.Caption>
           <div className='bannerText animate__animated animate__zoomIn banner1 '>
-            <h4>Building Future Bangladesh</h4>
-          <h3>Urban Sector</h3>
+          <h3>Urban</h3>
           </div>
         </Carousel.Caption>
+      </div>
       </Carousel.Item>
 
       <Carousel.Item>
+      <div className='gcbclBanner'>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://www.ask-ehs.com/blog/wp-content/uploads/2022/09/Blog-post-img-3-1.jpg"} alt="" />
       <Carousel.Caption>
         <div className='bannerText animate__animated animate__zoomIn'>
-        <h4>Building Future Bangladesh</h4>
         <h3>Transport</h3>
         </div>   
         </Carousel.Caption>
+      </div>
       </Carousel.Item>
 
       <Carousel.Item>
+      <div className='gcbclBanner'>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://www.brookings.edu/wp-content/uploads/2018/09/Energy-sector_shutterstock_288559940.jpg"} alt="" />
       <Carousel.Caption>
          <div className='bannerText animate__animated animate__zoomIn'>
-         <h4>Building Future Bangladesh</h4>
-         <h3>Energy Sector Capabilities</h3>
+         <h3>Energy Capabilities</h3>
          </div>
           
         </Carousel.Caption>
+      </div>
       </Carousel.Item>
 
 
       <Carousel.Item> 
+      <div className='gcbclBanner'>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://wbtourismdotblog.files.wordpress.com/2020/09/tourism-properties-cover.jpg?w=870"} alt="" />
         <Carousel.Caption>
          <div className='bannerText animate__animated animate__zoomIn bannerT'>
-         <h4>Building Future Bangladesh</h4>
          <h3>Tourism</h3>
          </div>  
         </Carousel.Caption>
+      </div>
       </Carousel.Item>
 
 
       <Carousel.Item>
+      <div className='gcbclBanner'>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://magarticles.magzter.com/articles/821/259752/5a4ccd70b74fa/Environmental-Pollution-in-Bangladesh-Its-Effects-and-Control.jpg"} alt="" />
         <Carousel.Caption>
          <div className='bannerText animate__animated animate__zoomIn bannerE'>
-         <h4>Building Future Bangladesh</h4>
          <h3>Enviroment</h3>
          </div>  
         </Carousel.Caption>
+      </div>
       </Carousel.Item>
 
 
       <Carousel.Item>
+      <div className='gcbclBanner'>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://live.staticflickr.com/65535/50520663201_3c42105f64_z.jpg"} alt="" />
         <Carousel.Caption>
          <div className='bannerText animate__animated animate__zoomIn'>
-         <h4>Building Future Bangladesh</h4>
          <h3>Food Safety</h3>
          </div>
         </Carousel.Caption>
+      </div>
       </Carousel.Item>
 
 
       <Carousel.Item>
+      <div className='gcbclBanner'>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://www.wipo.int/export/sites/www/cooperation/images/getty_494280280_500.jpg"} alt="" />
         <Carousel.Caption>
          <div className='bannerText animate__animated animate__zoomIn bannerC'>
-         <h4>Building Future Bangladesh</h4>
          <h3>Capacity Building</h3>
          </div>
         </Carousel.Caption>
+      </div>
       </Carousel.Item>
 
 
@@ -264,7 +271,7 @@ const Banner = () => {
                     <li><h6>Chairman & Managing Director:</h6>
                     <ul>
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img22} alt=""/>
-                        <li>Nusrat Zahan</li>
+                     <br />   <a href="">Nusrat Zahan</a>
                     </ul>
                     </li>
                 </ul>
@@ -273,7 +280,7 @@ const Banner = () => {
                     <li><h6>Advisors:</h6>
                     <ul>
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img00} alt=""/>
-                        <li>Md. Abul Quasem</li>
+                        <br />   <a href="">Md. Abul Quasem</a>
                     </ul>
                     </li>
                 </ul>
@@ -282,9 +289,10 @@ const Banner = () => {
                     <li><h6>Director:</h6>
                     <ul>
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }}  src={img44} alt=""/>
-                        <li>Kazi Ashiqur Rahman</li>
+                        <br />   <a href="">Kazi Ashiqur Rahman</a>
+
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img66} alt=""/>
-                        <li>Nasrin Mahmooda</li>
+                        <br />   <a href=""> Nasrin Mahmooda</a>
                     </ul>
                     </li>
                 </ul>
