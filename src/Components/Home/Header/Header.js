@@ -11,18 +11,20 @@ const Header = () => {
       <Container>
         <Navbar.Brand href="#home">
           <spam className="text-white fs-6"> <i className="fas fa-phone me-2"></i>
-                                +880 199 777 822</spam>
+                                +880 1707111437</spam>
           <spam className="text-white fs-6 ps-4"> <i className="fas fa-envelope me-2"></i>
-                                info.gcbcl@gmail.com</spam>
+                                info@gcbclbd.com</spam>
         </Navbar.Brand>
         <Navbar.Toggle />
         
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
           <div className="col-md-6 col-lg-12 ">
-                            <Link to='/'>
-                                <i className="fab fa-facebook-f  me-4 fs-6 text-white"> </i>
-                            </Link >
+                        
+                            <a href="https://www.facebook.com/people/ReeZaas-Your-Dr-Chef/61550330001567/">
+                            <i className="fab fa-facebook-f  me-4 fs-6 text-white"> </i>
+                            </a>    
+                           
                             <Link to='/'>
                                 <i className="fab fa-twitter  me-4 fs-6 text-white"> </i>
                             </Link>
@@ -145,11 +147,11 @@ const Header = () => {
 
             <NavDropdown title="Clients & Partners" id="collasible-nav-dropdown">
             <NavDropdown.Item>
-              <Nav.Link as={Link} to="/clients">Clients</Nav.Link> 
+              <Nav.Link as={Link} to="/clients">CLIENTS</Nav.Link> 
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/partners">Partners</Nav.Link> 
+              <Nav.Link as={Link} to="/partners">PARTNERS</Nav.Link> 
               </NavDropdown.Item>
             
             </NavDropdown>

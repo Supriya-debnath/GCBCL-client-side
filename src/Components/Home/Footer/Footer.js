@@ -49,13 +49,13 @@ const Footer = () => {
 
                             <p>
                                 <NavLink to="/services" className="text-white text-decoration-none small-text">
-                                    Marketing
+                                    Sectors
                                 </NavLink>
                             </p>
 
                             <p>
                                 <NavLink to="/services" className="text-white text-decoration-none small-text">
-                                    Web Development
+                                    Archive
                                 </NavLink>
                             </p>
 
@@ -114,12 +114,12 @@ const Footer = () => {
 
                             <p className="small-text">
                                 <i className="fas fa-envelope me-3"></i>
-                                info@example.com
+                                info@gcbclbd.com
                             </p>
 
                             <p className="small-text">
                                 <i className="fas fa-phone me-3"></i>
-                                +880 199 777 822
+                                +880 1707111437
                             </p>
 
                             <p className="small-text">

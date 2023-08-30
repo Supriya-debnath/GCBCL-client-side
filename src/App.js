@@ -34,6 +34,10 @@ import Study from './Components/Archive/Study/Study';
 import WorkExperiences from './Components/Archive/WorkExperiences/WorkExperiences';
 import Capacity from './Components/AllSectors/Capacity/Capacity';
 import Employee from './Components/Archive/Employee/Employee';
+import Nusrat from './Components/TeamDetails/Nusrat/Nusrat';
+import AbulQuasem from './Components/TeamDetails/AbulQuasem/AbulQuasem';
+import AshiqurRahman from './Components/TeamDetails/AshiqurRahman/AshiqurRahman';
+import NasrinMahmooda from './Components/TeamDetails/NasrinMahmooda/NasrinMahmooda';
 
 
 function App() {
@@ -108,6 +112,16 @@ function App() {
           <Route path="/employee" element={<Employee />}>
           </Route>
           <Route path="/work" element={<WorkExperiences />}>
+          </Route>
+
+
+          <Route path="/nusrat" element={<Nusrat />}>
+          </Route>
+          <Route path="/abul" element={<AbulQuasem />}>
+          </Route>
+          <Route path="/ashiqur" element={<AshiqurRahman />}>
+          </Route>
+          <Route path="/nasrin" element={<NasrinMahmooda />}>
           </Route>
 
 

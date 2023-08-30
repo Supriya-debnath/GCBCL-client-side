@@ -4,7 +4,7 @@ import 'animate.css';
 import { Button, Card, Carousel, Col, Container, Nav, NavDropdown, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import img22 from '../../../Images/GCBCL TEAM.docx (11).png'
+import img22 from '../../../Images/nusrat mam pic.JPG'
 import img44 from '../../../Images/GCBCL TEAM.docx (13).png'
 import img66 from '../../../Images/GCBCL TEAM.docx (15).png'
 import img00 from '../../../Images/Abul Quasem pic.docx.jpg'
@@ -271,7 +271,7 @@ const Banner = () => {
                     <li><h6>Chairman & Managing Director:</h6>
                     <ul>
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img22} alt=""/>
-                     <br />   <a href="">Nusrat Zahan</a>
+                     <br />   <a href="/nusrat">Nusrat Zahan</a>
                     </ul>
                     </li>
                 </ul>
@@ -280,7 +280,7 @@ const Banner = () => {
                     <li><h6>Advisors:</h6>
                     <ul>
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img00} alt=""/>
-                        <br />   <a href="">Md. Abul Quasem</a>
+                        <br />   <a href="/abul">Md. Abul Quasem</a>
                     </ul>
                     </li>
                 </ul>
@@ -289,10 +289,10 @@ const Banner = () => {
                     <li><h6>Director:</h6>
                     <ul>
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }}  src={img44} alt=""/>
-                        <br />   <a href="">Kazi Ashiqur Rahman</a>
+                        <br />   <a href="/ashiqur">Kazi Ashiqur Rahman</a>
 
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img66} alt=""/>
-                        <br />   <a href=""> Nasrin Mahmooda</a>
+f                        <br />   <a href="/nasrin"> Nasrin Mahmooda</a>
                     </ul>
                     </li>
                 </ul>
