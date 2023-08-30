@@ -271,7 +271,8 @@ const Banner = () => {
                     <li><h6>Chairman & Managing Director:</h6>
                     <ul>
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img22} alt=""/>
-                     <br />   <a href="/nusrat">Nusrat Zahan</a>
+                     <br /> 
+                     <Link to='/nusrat'> Nusrat Zahan</Link>
                     </ul>
                     </li>
                 </ul>
@@ -280,7 +281,8 @@ const Banner = () => {
                     <li><h6>Advisors:</h6>
                     <ul>
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img00} alt=""/>
-                        <br />   <a href="/abul">Md. Abul Quasem</a>
+                        <br /> 
+                        <Link to='/abul'> Md. Abul Quasem</Link>
                     </ul>
                     </li>
                 </ul>
@@ -289,10 +291,11 @@ const Banner = () => {
                     <li><h6>Director:</h6>
                     <ul>
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }}  src={img44} alt=""/>
-                        <br />   <a href="/ashiqur">Kazi Ashiqur Rahman</a>
+                        <br /> <Link to='/ashiqur'>Kazi Ashiqur Rahman</Link>
 
                     <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img66} alt=""/>
-f                        <br />   <a href="/nasrin"> Nasrin Mahmooda</a>
+f                        <br /> 
+                          <Link to='/nasrin'>Nasrin Mahmooda</Link>
                     </ul>
                     </li>
                 </ul>
