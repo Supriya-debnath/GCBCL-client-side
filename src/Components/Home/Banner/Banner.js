@@ -32,25 +32,25 @@ const Banner = () => {
                    </p>
                    <p>
                    <NavDropdown title="About Us" id="collasible-nav-dropdown">
-                        <NavDropdown.Item>
-                        <Nav.Link as={Link} to="/history">History</Nav.Link>
-                        </NavDropdown.Item>
-                        <NavDropdown.Divider />
+              <NavDropdown.Item>
+              <Nav.Link as={Link} to="/history">HISTORY</Nav.Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
 
-                        <NavDropdown.Item>
-                        <Nav.Link as={Link} to="/director"> Board of Director</Nav.Link>
-                        </NavDropdown.Item>
-                        <NavDropdown.Divider />
+              <NavDropdown.Item>
+              <Nav.Link as={Link} to="/director"> INTERNATIONAL CONSULTANT</Nav.Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
 
-                        <NavDropdown.Item>
-                        <Nav.Link as={Link} to="/coreTeam"> Core Team</Nav.Link>
-                        </NavDropdown.Item>
-                        <NavDropdown.Divider />
+              <NavDropdown.Item>
+              <Nav.Link as={Link} to="/coreTeam"> OPERATIONAL BODY</Nav.Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
 
-                        <NavDropdown.Item>
-                        <Nav.Link as={Link} to="/csr"> CSR</Nav.Link>
-                        </NavDropdown.Item>
-                        </NavDropdown>
+              <NavDropdown.Item>
+              <Nav.Link as={Link} to="/csr"> ADVISORS</Nav.Link>
+              </NavDropdown.Item>
+            </NavDropdown>
                    </p>
 
 
@@ -87,7 +87,12 @@ const Banner = () => {
               <NavDropdown.Divider />
 
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/foodSafety"> FOOD SAFETY </Nav.Link>
+              <Nav.Link as={Link} to="/foodSafety"> FOOD SAFETY & SECURITY </Nav.Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+
+              <NavDropdown.Item>
+              <Nav.Link as={Link} to="/capacity"> CAPACITY BUILDING </Nav.Link>
               </NavDropdown.Item>
               </NavDropdown>
                    </p>
