@@ -2,13 +2,14 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
 import img11 from '../../../Images/GCBCL TEAM.docx (10).png'
-import img22 from '../../../Images/GCBCL TEAM.docx (11).png'
+import img22 from '../../../Images/nusrat mam pic.JPG'
 import img33 from '../../../Images/GCBCL TEAM.docx (12).png'
 import img44 from '../../../Images/GCBCL TEAM.docx (13).png'
 import img55 from '../../../Images/GCBCL TEAM.docx (14).png'
 import img66 from '../../../Images/GCBCL TEAM.docx (15).png'
 
 import './CoreTeam.css';
+import { Link } from 'react-router-dom';
 
 const CoreTeam = () => {
 
@@ -25,10 +26,10 @@ const CoreTeam = () => {
                 <Row >
                 <Col md={4} xs={12} className="my-2"> 
                         <div className='menus-card'>
-                        <img className='menus_img' src={img22} alt=""/>
+                        <img className='menus_img' style={{ height: "270px"}} src={img22} alt=""/>
                         <div className='img_overlay img_overlay--primary'>
                         <div className='menus_title'>
-                        <a href="/nusrat"> Nusrat Zahan </a>
+                        <Link to='/nusrat'> Nusrat Zahan</Link>
                        <br />
                         chairman
 
@@ -42,7 +43,7 @@ const CoreTeam = () => {
                         <img className='menus_img' src={img44} alt=""/>
                         <div className='img_overlay img_overlay--primary'>
                         <div className='menus_title'>
-                        <a href="/ashiqur">Kazi Ashiqur Rahman</a>
+                        <Link to='/ashiqur'>Kazi Ashiqur Rahman</Link>
                         <br />
                         Director
 
@@ -56,7 +57,7 @@ const CoreTeam = () => {
                         <img className='menus_img' src={img66} alt=""/>
                         <div className='img_overlay img_overlay--primary'>
                         <div className='menus_title'>
-                        <a href="/nasrin"> Nasrin Mahmooda</a> <br />
+                        <Link to='/nasrin'>Nasrin Mahmooda</Link> <br />
                         Director
 
                         </div>
