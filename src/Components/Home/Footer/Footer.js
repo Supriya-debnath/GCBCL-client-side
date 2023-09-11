@@ -20,7 +20,7 @@ const Footer = () => {
                             />
                             <p className="small-text footer-about">
                         
-                            We have much planned for the future, working with great clients and continued software development
+                            GCBCL believes in equality, with this prospect, we are engaged in conducting several survey, capacity building of the society specially in the rural areas. 
                             </p>
                             <div className="col-md-6 col-lg-12 pt-4 ">
                             <Link to='/'>
@@ -61,7 +61,7 @@ const Footer = () => {
 
                             <p>
                                 <NavLink to="/services" className="text-white text-decoration-none small-text">
-                                    Writting
+                                    Services
                                 </NavLink>
                             </p>
 
@@ -124,7 +124,7 @@ const Footer = () => {
 
                             <p className="small-text">
                                 <i className="fas fa-print me-3"></i>
-                                +880 199 559 811
+                                +88 02 55040694
                             </p>
                         </div>
                     </div>

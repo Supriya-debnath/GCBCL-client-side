@@ -38,6 +38,9 @@ import Nusrat from './Components/TeamDetails/Nusrat/Nusrat';
 import AbulQuasem from './Components/TeamDetails/AbulQuasem/AbulQuasem';
 import AshiqurRahman from './Components/TeamDetails/AshiqurRahman/AshiqurRahman';
 import NasrinMahmooda from './Components/TeamDetails/NasrinMahmooda/NasrinMahmooda';
+import ResearchPaper from './Components/Archive/ResearchPaper/ResearchPaper';
+import Events from './Components/Archive/Events/Events';
+import Picture from './Components/Archive/Picture/Picture';
 
 
 function App() {
@@ -109,7 +112,13 @@ function App() {
 
           <Route path="/study" element={<Study />}>
           </Route>
+          <Route path="/research" element={<ResearchPaper />}>
+          </Route>
           <Route path="/employee" element={<Employee />}>
+          </Route>
+          <Route path="/events" element={<Events />}>
+          </Route>
+          <Route path="/picture" element={<Picture />}>
           </Route>
           <Route path="/work" element={<WorkExperiences />}>
           </Route>

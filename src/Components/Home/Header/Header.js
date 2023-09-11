@@ -128,19 +128,19 @@ const Header = () => {
 
             <NavDropdown title="Services" id="collasible-nav-dropdown">
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/Infrastructure"> GCBCl Consultancy Services</Nav.Link> 
+              <Nav.Link as={Link} to="/Infrastructure"> GCBCl CONSULTANCY SERVICES</Nav.Link> 
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/bankService">Bank Service</Nav.Link> 
+              <Nav.Link as={Link} to="/bankService">BANK SERVICE</Nav.Link> 
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/training">Training/Workshop</Nav.Link> 
+              <Nav.Link as={Link} to="/training"> TRAINING/WORKSHOP</Nav.Link> 
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/servey">Servey related services</Nav.Link> 
+              <Nav.Link as={Link} to="/servey">SERVEY RELATED SERVICES</Nav.Link> 
               </NavDropdown.Item>
             </NavDropdown>
             
@@ -161,32 +161,32 @@ const Header = () => {
 
             <NavDropdown title="Archive" id="collasible-nav-dropdown">
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/study">Study</Nav.Link>
+              <Nav.Link as={Link} to="/study">STUDY</Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
 
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/">Research paper</Nav.Link>
+              <Nav.Link as={Link} to="/research">RESEARCH PAPER</Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
 
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/employee">Employee</Nav.Link>
+              <Nav.Link as={Link} to="/employee">EMPLOYEE</Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
 
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/">Events</Nav.Link>
+              <Nav.Link as={Link} to="/events">EVENTS</Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
 
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/">Picture</Nav.Link>
+              <Nav.Link as={Link} to="/picture">PICTURE</Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
 
               <NavDropdown.Item>
-              <Nav.Link as={Link} to="/work">Work Experience</Nav.Link>
+              <Nav.Link as={Link} to="/work">WORK EXPERIENCE</Nav.Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
             </NavDropdown>
