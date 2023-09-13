@@ -1,5 +1,7 @@
 .board-title{
     text-align: center;
+    padding: 30px;
+    color: palevioletred;
 }
 
 #team{
@@ -19,8 +21,11 @@
 .team-img{
     position: relative;
 }
+.team-text{
+    text-align: center;
+}
 
-.team-img .overly{
+/* .team-img .overly{
     position: absolute;
     content: '';
     left: 10px;
@@ -32,9 +37,9 @@
     border-radius: 50%;
     transform: scale(0);
     transition: all linear .3s;
-}
+} */
 
-.team-img .overly ul li a{
+/* .team-img .overly ul li a{
     width: 30px;
     height: 30px;
     border-radius: 50px;
@@ -52,17 +57,17 @@
 
 .main-team:hover .team-img .overly{
     transform: scale(1);
-}
+} */
 
-.team-text p{
+/* .team-text p{
     transform: scale(0);
 }
 
 .main-team:hover .team-text p{
     transform: scale(1);
-}
+} */
 
-.main-team{
+/* .main-team{
     padding-top: 72px;
 }
 
@@ -72,4 +77,4 @@
 
 .main-team:hover .team-text{
     border: 2px solid #ddd;
-}
+} */

@@ -21,7 +21,9 @@ const Header = () => {
           <Navbar.Text>
           <div className="col-md-6 col-lg-12 ">
                         
-                            <a href="https://www.facebook.com/people/ReeZaas-Your-Dr-Chef/61550330001567/">
+                            {/* <a href="https://www.facebook.com/people/ReeZaas-Your-Dr-Chef/61550330001567/"> */}
+
+                            <a href="https://www.facebook.com/GCBCL">
                             <i className="fab fa-facebook-f  me-4 fs-6 text-white"> </i>
                             </a>    
                            

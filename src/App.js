@@ -41,6 +41,8 @@ import NasrinMahmooda from './Components/TeamDetails/NasrinMahmooda/NasrinMahmoo
 import ResearchPaper from './Components/Archive/ResearchPaper/ResearchPaper';
 import Events from './Components/Archive/Events/Events';
 import Picture from './Components/Archive/Picture/Picture';
+import NotFound from './Components/NotFound/NotFound';
+
 
 
 function App() {
@@ -140,6 +142,10 @@ function App() {
           </Route>
 
           <Route path="/contact" element={<Contact />}>
+          </Route>
+
+
+          <Route path="*" element={<NotFound />}>
           </Route>
 
   </Routes>

@@ -25,21 +25,8 @@ const BoardDirector = () => {
                 </div>
 
                 <div className="row">
-         <div className="col-lg-3">
-           <div className="main-team transition">
-             <div className="team-img">
-               <img style={{height: 260}}  src={img6} className="img-fluid w-100" alt=""/>
-               <div className="overly transition">
-               </div>
-             </div>
-             <div className="team-text">
-               <h4>Pradeep Joshi</h4>
-               <h6>Group President & CEO</h6>
-               <p className="transition">Green Circle Inc, India</p>
-             </div>
-           </div>
-         </div>
-         <div className="col-lg-3">
+      
+         <div className="col-lg-4">
            <div className="main-team transition">
              <div className="team-img">
                <img style={{height: 260}}  src={img7} className="img-fluid w-100" alt=""/>
@@ -54,7 +41,7 @@ const BoardDirector = () => {
              </div>
            </div>
          </div>
-         <div className="col-lg-3">
+         <div className="col-lg-4">
            <div className="main-team transition">
              <div className="team-img">
                <img style={{height: 260}} src={img0} className="img-fluid w-100" alt=""/>
@@ -69,7 +56,7 @@ const BoardDirector = () => {
              </div>
            </div>
          </div>
-         <div className="col-lg-3">
+         <div className="col-lg-4">
            <div className="main-team transition">
              <div className="team-img">
                <img style={{height: 260}}  src={img9} className="img-fluid w-100" alt=""/>
@@ -93,7 +80,7 @@ const BoardDirector = () => {
 
 
          <div className='row'>
-         <div className="col-lg-3">
+         <div className="col-lg-4">
            <div className="main-team transition">
              <div className="team-img">
                <img style={{height: 260}}  src={img1} className="img-fluid w-100" alt=""/>
@@ -109,7 +96,7 @@ const BoardDirector = () => {
            </div>
          </div>
 
-         <div className="col-lg-3">
+         <div className="col-lg-4">
            <div className="main-team transition">
              <div className="team-img">
                <img style={{height: 260}}  src={img2} className="img-fluid w-100" alt=""/>
@@ -125,7 +112,7 @@ const BoardDirector = () => {
            </div>
          </div>
 
-         <div className="col-lg-3">
+         <div className="col-lg-4">
            <div className="main-team transition">
              <div className="team-img">
                <img style={{height: 260}}  src={img3} className="img-fluid w-100" alt=""/>
@@ -141,21 +128,6 @@ const BoardDirector = () => {
            </div>
          </div>
 
-         <div className="col-lg-3">
-           <div className="main-team transition">
-             <div className="team-img">
-               <img style={{height: 260}}  src={img4} className="img-fluid w-100" alt=""/>
-               <div className="overly transition">
-                
-               </div>
-             </div>
-             <div className="team-text">
-               <h4>Sergey Samolis</h4>
-               <h6>Infrastructure Consultant</h6>
-               <p className="transition">Venuelinks, UK</p>
-             </div>
-           </div>
-         </div>
 
           </div>
 

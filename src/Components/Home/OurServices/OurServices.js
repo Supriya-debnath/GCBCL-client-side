@@ -7,14 +7,14 @@ import Service from '../Service/Service';
 const OurServices = () => {
     const [ services, setServices]= useState([]);
 
-    const settings = {
-        className: "center",
-        centerMode: true,
-        infinite: true,
-        centerPadding: "60px",
-        slidesToShow: 3,
-        speed: 500
-      };
+    // const settings = {
+    //     className: "center",
+    //     centerMode: true,
+    //     infinite: true,
+    //     centerPadding: "60px",
+    //     slidesToShow: 3,
+    //     speed: 500
+    //   };
 
 
     useEffect(() => {
@@ -54,11 +54,11 @@ const OurServices = () => {
     
      
        
-            <div className="row-cols-1 row-cols-md-1 row-cols-lg-1 g-4">
-            <Slider {...settings}>
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            {/* <Slider {...settings}> */}
           
                 {services.map(service => <Service key={service._id} service={service}/>)}
-                </Slider>
+                {/* </Slider> */}
              
             </div>
             
