@@ -1,0 +1,68 @@
+
+.banner-img {
+    background-image:
+    linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)),url(https://humayra.com.bd/wp-content/uploads/2019/05/aa-15.jpg);
+    background-size: 100% 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-out;
+    
+}
+
+@keyframes animate{
+    0%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://cdn.eventplanner.net/imgs/rt4452_tip-hoe-kies-je-een-partycateraar@2x.jpg);
+    } 20%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/546fBLz/Green-Modern-Grand-Opening-Banner-Landscape-1.png);
+    }
+     /* 20%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://cdn0.weddingwire.in/vendor/9865/3_2/1280/jpg/catering-royal-catering-services-catering-setup-2_15_309865-159057093440061.jpeg);
+    }  */
+    40%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/9HnbrRn/369914039-122108985050011000-1584877955488085809-n.jpg);
+    } 60%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://cdn.eventplanner.net/imgs/rt4452_tip-hoe-kies-je-een-partycateraar@2x.jpg);
+    } 80%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/DtJ0dYr/368835281-122106087788011000-1638102641404877327-n.jpg);
+       
+    }
+    100%{
+        background-image: linear-gradient(rgba(255,0,0,0.2),rgba(10,64,248,0.3)), url(https://i.ibb.co/JB1BxZ5/Food-Drink-Healthy-Store-1.png);
+       
+        
+    }
+}
+
+.banner-text h1 {
+    /* text-align: center; */
+    padding: 5px;
+    color: white;
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner-text p {
+    color: #ffff;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.btn{
+    background-color: rgb(65, 131, 65);
+    color: aqua;
+    border: 1px solid gray;
+    margin: 20px;
+    padding: 5px 25px;
+    border-radius: 20px;
+} 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-// import './FoodSafety.css';
+import './FoodSafety.css';
+import { Link } from 'react-router-dom';
 
 const FoodSafety= () => {
     return (
@@ -8,7 +9,23 @@ const FoodSafety= () => {
             <>
             <Container>
             <Row>
-                <Col>  <img style={{height: 460}}  src={'https://foodindustryexecutive.com/wp-content/uploads/2016/09/bigstock-Food-scientists-using-the-micr-84723971.jpg'} className="img-fluid w-100" alt=""/> </Col>
+                <Col>
+
+                <div className="banner-img">
+        <div className="banner-text">
+            <h1 className='animate__animated animate__zoomIn'>ReeZaa's-Your Dr.Chef</h1>
+            {/* <p className='animate__animated animate__fadeInUp'>
+                Lets plan your next even together.
+            </p> */}
+            <Link to="https://www.facebook.com/people/ReeZaas-Your-Dr-Chef/61550330001567/">
+            <button className="btn1 animate__animated animate__fadeInUp">Contact Us</button>
+            </Link>
+        </div>
+    </div>
+
+
+                  {/* <img style={{height: 460}}  src={'https://foodindustryexecutive.com/wp-content/uploads/2016/09/bigstock-Food-scientists-using-the-micr-84723971.jpg'} className="img-fluid w-100" alt=""/>  */}
+                  </Col>
             </Row>
 
             <Row>
