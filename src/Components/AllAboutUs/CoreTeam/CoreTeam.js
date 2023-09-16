@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 
 import img11 from '../../../Images/GCBCL TEAM.docx (10).png'
-import img22 from '../../../Images/nusrat mam pic.JPG'
+import img22 from '../../../Images/nusrat mam.png'
 import img33 from '../../../Images/GCBCL TEAM.docx (12).png'
 import img44 from '../../../Images/GCBCL TEAM.docx (13).png'
 import img55 from '../../../Images/GCBCL TEAM.docx (14).png'

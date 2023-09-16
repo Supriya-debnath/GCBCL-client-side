@@ -4,10 +4,10 @@ import 'animate.css';
 import { Button, Card, Carousel, Col, Container, Nav, NavDropdown, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import img22 from '../../../Images/nusrat mam pic.JPG'
+import img22 from '../../../Images/nusrat mam.png'
 import img44 from '../../../Images/GCBCL TEAM.docx (13).png'
 import img66 from '../../../Images/GCBCL TEAM.docx (15).png'
-import img00 from '../../../Images/Abul Quasem pic.docx.jpg'
+import img00 from '../../../Images/Abul Quasem.png'
 
 const Banner = () => {
 
@@ -276,34 +276,34 @@ const Banner = () => {
                 <div>
                 <ul>
                     <li><h6>Chairman & Managing Director:</h6>
-                    <ul>
-                    <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img22} alt=""/>
+                    <img style={{ height: "100px", width: "150px", paddingRight:"20px" }} src={img22} alt=""/>
                      <br /> 
-                     <Link to='/nusrat'> Nusrat Zahan</Link>
-                    </ul>
+                     <Link to='/nusrat'>Nusrat Zahan</Link>
                     </li>
                 </ul>
+
+
 
                 <ul>
                     <li><h6>Advisors:</h6>
-                    <ul>
-                    <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img00} alt=""/>
+                    <img style={{ height: "100px", width: "150px", paddingRight:"20px" }} src={img00} alt=""/>
                         <br /> 
                         <Link to='/abul'> Md. Abul Quasem</Link>
-                    </ul>
                     </li>
                 </ul>
 
+                
+
                 <ul>
                     <li><h6>Director:</h6>
-                    <ul>
-                    <img style={{ height: "60px", width: "90px", paddingRight:"20px" }}  src={img44} alt=""/>
+            
+                    <img style={{ height: "100px", width: "150px", paddingRight:"20px" }}  src={img44} alt=""/>
                         <br /> <Link to='/ashiqur'>Kazi Ashiqur Rahman</Link>
 
-                    <img style={{ height: "60px", width: "90px", paddingRight:"20px" }} src={img66} alt=""/>
+                    <img style={{ height: "100px", width: "150px", paddingRight:"20px" }} src={img66} alt=""/>
 f                        <br /> 
                           <Link to='/nasrin'>Nasrin Mahmooda</Link>
-                    </ul>
+              
                     </li>
                 </ul>
                 </div>

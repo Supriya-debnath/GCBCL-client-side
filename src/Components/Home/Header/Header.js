@@ -11,7 +11,7 @@ const Header = () => {
       <Container>
         <Navbar.Brand href="#home">
           <spam className="text-white fs-6"> <i className="fas fa-phone me-2"></i>
-                                +880 1707111437</spam>
+                               +88 02 55040694</spam>
           <spam className="text-white fs-6 ps-4"> <i className="fas fa-envelope me-2"></i>
                                 info@gcbclbd.com</spam>
         </Navbar.Brand>

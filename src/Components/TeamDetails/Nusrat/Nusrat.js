@@ -3,7 +3,7 @@ import './Nusrat.css';
 import { Col, Container, Row } from 'react-bootstrap';
 
 
-import img22 from '../../../Images/nusrat mam pic.JPG'
+import img22 from '../../../Images/nusrat mam.png'
 
 
 
