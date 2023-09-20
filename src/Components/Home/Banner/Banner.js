@@ -20,7 +20,19 @@ const Banner = () => {
     return (
         <>
 
-        
+        <div  className="marq">
+          <marquee scrollamount="15">
+            <h1>ReeZaa's-Your Dr.Chef : We are Open Now</h1>
+                 
+          </marquee>
+                    
+           {/* <a href="https://www.facebook.com/people/ReeZaas-Your-Dr-Chef/61550330001567/">
+           <span className='ss'> Click Me</span>
+            </a>   */}
+          <Link to='https://www.facebook.com/people/ReeZaas-Your-Dr-Chef/61550330001567/'>
+          <button className='me'>Click Me</button>
+              </Link>
+        </div>
 
 
         <Row>
