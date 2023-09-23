@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 import img22 from '../../../Images/nusrat mam.png'
 import img44 from '../../../Images/GCBCL TEAM.docx (13).png'
-import img66 from '../../../Images/GCBCL TEAM.docx (15).png'
+import img66 from '../../../Images/Mahmooda.png'
 import img00 from '../../../Images/Abul Quasem.png'
 
 const Banner = () => {
