@@ -27,7 +27,7 @@ const Service = ({service}) => {
 
                     </div>
 
-                    <Link to={'/'}>
+                    <Link to={'/details'}>
                     <button className="btn1 btn-success text-white px-4 w-75 rounded-0 order-btn ">Read More</button>
                     </Link>
 

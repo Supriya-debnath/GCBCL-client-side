@@ -42,6 +42,7 @@ import ResearchPaper from './Components/Archive/ResearchPaper/ResearchPaper';
 import Events from './Components/Archive/Events/Events';
 import Picture from './Components/Archive/Picture/Picture';
 import NotFound from './Components/NotFound/NotFound';
+import ProjectDetails from './Components/ProjectDetails/ProjectDetails';
 
 
 
@@ -136,10 +137,15 @@ function App() {
           </Route>
 
 
+          <Route path="/details" element={<ProjectDetails />}>
+          </Route>
+
+
           
 
           <Route path="/blogs" element={<Blogs />}>
           </Route>
+
 
           <Route path="/contact" element={<Contact />}>
           </Route>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Picture.css';
+import { Container } from 'react-bootstrap';
 
 // import {Swiper, SwiperSlide} from 'swiper/react';
 
@@ -20,8 +21,90 @@ const Picture= () => {
     return (
         <div>
             <>
-        <div className='container'>
-            <h2 className='heading'>Gallery World</h2>
+        <div>
+            <Container>
+            <h1 class="text-18 text-bold text-center border-bottom pb-3 mb-3 destination1">
+                Photo Gallery</h1>
+						
+
+                <div className='galleryP'>
+                    <div>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+                    <div className='v-stretch'>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+                    <div className='h-stretch'>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+                    <div>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+
+                    <div>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+                    <div className='v-stretch'>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+
+                    <div className='big-stretch'>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+
+                    <div>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+
+                    <div>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+
+                    <div>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+
+                    <div className='v-stretch'>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+
+                    <div>
+                    <img src="https://img.freepik.com/free-photo/brunette-business-woman-with-wavy-long-hair-blue-eyes-stands-holding-notebook-hands_197531-343.jpg" alt=""/>
+                    </div>
+
+
+                    
+
+
+                    
+                </div>
+
+            </Container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             {/* <Swiper
                 effect={'coverflow'}
                 grabCursor= {true}

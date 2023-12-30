@@ -2,7 +2,7 @@ import React from 'react';
 import './AbulQuasem.css';
 import { Col, Container, Row } from 'react-bootstrap';
 
-import img00 from '../../../Images/Abul Quasem pic.docx.jpg'
+import img00 from '../../../Images/Abul Quasem.png'
 
 const AbulQuasem= () => {
     return (
@@ -12,7 +12,7 @@ const AbulQuasem= () => {
                 
                 <Row>
             <Col xs={12} md={5}>
-            <img style={{ height: "350px", padding:"20px" }} src={img00} alt="" />
+            <img style={{ height: "350px", paddingTop:"10px",  width:"400px"}} src={img00} alt="" />
             </Col>
             <Col xs={12} md={7} className='pt-4'>
                 <div>

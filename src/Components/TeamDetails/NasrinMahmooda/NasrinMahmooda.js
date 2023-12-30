@@ -1,7 +1,7 @@
 import React from 'react';
 import './NasrinMahmooda.css';
 
-import img66 from '../../../Images/GCBCL TEAM.docx (15).png'
+import img66 from '../../../Images/Mahmooda.png'
 import { Col, Container, Row } from 'react-bootstrap';
 
 const NasrinMahmooda= () => {
@@ -12,7 +12,7 @@ const NasrinMahmooda= () => {
                 
                 <Row>
             <Col xs={12} md={5}>
-            <img style={{ height: "350px", padding:"20px" }} src={img66} alt="" />
+            <img style={{ height: "350px", padding:"10px", width:"400px" }} src={img66} alt="" />
             </Col>
             <Col xs={12} md={7} className='pt-4'>
                 <div>
