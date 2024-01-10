@@ -8,6 +8,7 @@ import img22 from '../../../Images/nusrat mam.png'
 import img44 from '../../../Images/GCBCL TEAM.docx (13).png'
 import img66 from '../../../Images/Mahmooda.png'
 import img00 from '../../../Images/Abul Quasem.png'
+import img001 from '../../../Images/_New Year 2024 (1).mp4'
 
 const Banner = () => {
 
@@ -20,9 +21,29 @@ const Banner = () => {
     return (
         <>
 
+{/* ------------------------------------------------------------------ */}
+{/* Happy new year */}
+
+{/* <div>
+  <video width="1390" height="170" controls>
+
+  <source src={img001} type="video/mp4"  />
+  
+  
+  </video>
+  </div> */}
+
+ 
+
+
+{/* ------------------------------------------------------------------ */}
+
+
+
         <div  className="marq">
           <marquee scrollamount="15">
             <h1>ReeZaa's-Your Dr.Chef : We are Open Now</h1>
+           
                  
           </marquee>
                     
@@ -36,7 +57,7 @@ const Banner = () => {
 
 
         <Row>
-            <Col xs={12} md={2}>
+            {/* <Col xs={12} md={2}>
             <div>
             <div className=' ps-5 pt-5'>
                  <p>
@@ -186,13 +207,15 @@ const Banner = () => {
          
                  </div>
             </div>
-            </Col>
+            </Col> */}
 
 
         <Col xs={12} md={8}>
             <Container>
+   
 
             <Carousel activeIndex={index} onSelect={handleSelect}>
+              
       <Carousel.Item>
       <div className='gcbclBanner'>
       <img style={{ height: "450px", padding:"20px" }}  src={"https://www.worldbank.org/content/dam/photos/780x439/2018/jan-1/Kazakhstan-homes-near-an-urban-area-Shynar-Jetpissova-World-Bank-780x439....png"} alt="" />
@@ -203,6 +226,8 @@ const Banner = () => {
         </Carousel.Caption>
       </div>
       </Carousel.Item>
+
+      
 
       <Carousel.Item>
       <div className='gcbclBanner'>
@@ -284,8 +309,11 @@ const Banner = () => {
             </Col>
 
 
-            <Col xs={12} md={2}>
-                <div>
+            <Col xs={12} md={4}>
+                <div className='uu'>
+                  <Row>
+                  <Col xs={12} md={6}>
+                    
                 <ul>
                     <li><h6>Chairman & Managing Director:</h6>
                     <img style={{ height: "100px", width: "150px", paddingRight:"20px" }} src={img22} alt=""/>
@@ -293,31 +321,49 @@ const Banner = () => {
                      <Link to='/nusrat'>Nusrat Zahan</Link>
                     </li>
                 </ul>
-
-
-
-                <ul>
-                    <li><h6>Advisors:</h6>
+                    </Col>
+                  <Col xs={12} md={6}>
+                  <ul>
+                    <li><h6>Senior Advisors:</h6>
                     <img style={{ height: "100px", width: "150px", paddingRight:"20px" }} src={img00} alt=""/>
                         <br /> 
                         <Link to='/abul'> Md. Abul Quasem</Link>
                     </li>
                 </ul>
+                    </Col>
+                  </Row>
 
-                
 
+                <Row>
+                <Col xs={12} md={6}>
                 <ul>
                     <li><h6>Director:</h6>
             
                     <img style={{ height: "100px", width: "150px", paddingRight:"20px" }}  src={img44} alt=""/>
                         <br /> <Link to='/ashiqur'>Kazi Ashiqur Rahman</Link>
+                        </li>
+                        </ul>
 
-                    <img style={{ height: "100px", width: "150px", paddingRight:"20px" }} src={img66} alt=""/>
-f                        <br /> 
+                 
+                  </Col>
+                <Col xs={12} md={6}>
+                    <ul>
+                      <li><h6>Director:</h6>
+                      <img style={{ height: "100px", width: "150px", paddingRight:"20px" }} src={img66} alt=""/>                       
+                  <br /> 
                           <Link to='/nasrin'>Nasrin Mahmooda</Link>
               
                     </li>
                 </ul>
+                  </Col>
+                </Row>
+
+
+               
+
+                
+
+                
                 </div>
             </Col>
         </Row>

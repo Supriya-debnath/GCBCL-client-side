@@ -33,9 +33,9 @@ const Header = () => {
                             <Link to='/'>
                                 <i className="fab fa-linkedin-in me-4 fs-6 text-white"> </i>
                             </Link>
-                            <Link to='/'>
+                            {/* <Link to='/'>
                                 <i className="fab fa-instagram fs-6 text-white"> </i>
-                            </Link>
+                            </Link> */}
                         </div>
           </Navbar.Text>
         </Navbar.Collapse>
